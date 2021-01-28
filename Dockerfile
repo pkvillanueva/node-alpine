@@ -1,6 +1,4 @@
-FROM node:10.19.0-alpine3.9
-
-RUN npm i -g yarn
+FROM node:10.23
 
 # Install deps for awscli
 RUN apk -Uuv add --no-cache groff less python python-dev py-pip ca-certificates
